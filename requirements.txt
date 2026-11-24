@@ -1,10 +1,10 @@
-torch==2.1.0
-torchvision==0.16.0
-opencv-python
+torch==2.2.0
+torchvision==0.17.0
+opencv-contrib-python==4.11.0.86
 flask
 pillow
-numpy
+numpy<2.0
 scikit-learn
 matplotlib
 tqdm
-opencv-contrib-python
+httpx>=0.23,<1
